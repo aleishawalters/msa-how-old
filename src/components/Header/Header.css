@@ -17,3 +17,10 @@
     font-weight: bold;
     color: #eeeeee;
 }
+
+.intro {
+    color: white;
+    display: flex;
+    justify-content: center;stify-content: center;
+    padding-top: 10px;
+}

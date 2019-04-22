@@ -1,5 +1,6 @@
 import * as React from 'react';
 import DropArea from './components/DropArea/DropArea'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Result from './components/Result/Result'
 
@@ -25,8 +26,10 @@ class App extends React.Component<{},IState>{
       return (
         <div>
           <Header />
+          <h2 className='intro'>Upload a photo and let us guess your age!</h2>
           <DropArea setResults={this.resultstate} />
           <Result result={this.state.result} filelength={this.state.filelength} />
+          <Footer />
         </div>
       );
     }
