@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding-top: 30px;
+    text-align: center;
 }
 
 .image {
@@ -23,4 +24,5 @@
     display: flex;
     justify-content: center;
     padding-top: 10px;
+    text-align: center;
 }
